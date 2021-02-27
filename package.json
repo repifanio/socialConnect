@@ -1,0 +1,22 @@
+{
+  "name": "socialConnect",
+  "version": "1.0.0",
+  "description": "Essa aplicação permite interação com redes sociais",
+  "main": "server.js",
+  "repository": "https://github.com/repifanio/socialConnect.git",
+  "author": "Rafael Epifanio",
+  "license": "Apache License 2.0",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "dev:server": "nodemon --es-module-specifier-resolution=node ./src/server.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7"
+  }
+}
